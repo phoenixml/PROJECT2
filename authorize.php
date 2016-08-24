@@ -34,7 +34,8 @@ define('DRUPAL_ROOT', getcwd());
  * places in Drupal code (not just authorize.php).
  */
 define('MAINTENANCE_MODE', 'update');
-
+int x = 1;
+int y = 2;
 /**
  * Renders a 403 access denied page for authorize.php.
  */
