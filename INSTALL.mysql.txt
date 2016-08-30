@@ -1,6 +1,6 @@
 
 CREATE THE MySQL DATABASE
---------------------------
+-------------------------------------------------------------------------------
 
 This step is only necessary if you don't already have a database set up (e.g.,
 by your host). In the following examples, 'username' is an example MySQL user
@@ -26,7 +26,7 @@ prompt, enter the following command:
 
 where:
 
- 'databasename' is the name of your database
+ 'databasename' is the name of your database(mss) 
  'username' is the username of your MySQL account
  'localhost' is the web server host where Drupal is installed
  'password' is the password required for that username
