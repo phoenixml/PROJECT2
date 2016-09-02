@@ -5,7 +5,7 @@ contribute in other ways -- see https://www.drupal.org/contribute to find out
 how.
 
 Branch maintainers
-------------------
+---------------------
 
 The Drupal Core branch maintainers oversee the development of Drupal as a whole.
 The branch maintainers for Drupal 7 are:
