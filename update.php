@@ -52,12 +52,11 @@ function update_script_selection_form($form, &$form_state) {
     '#collapsed' => TRUE,
     '#collapsible' => TRUE,
   );
-
   // Ensure system.module's updates appear first.
   $form['start']['system'] = array();
 
   $updates = update_get_update_list();
-  $starting_updates = array();
+  $starting_updates = array(); 
   $incompatible_updates_exist = FALSE;
   foreach ($updates as $module => $update) {
     if (!isset($update['start'])) {
